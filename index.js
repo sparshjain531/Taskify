@@ -20,8 +20,8 @@ app.use(cors({
     credentials:true
 }))
 
-app.use("/api/v1//users",userRoute)
-app.use("/api/v1//task",taskRouter)
+app.use("/api/v1/users",userRoute)
+app.use("/api/v1/task",taskRouter)
     
 app.get("/",(req,res)=>{
     res.json({
