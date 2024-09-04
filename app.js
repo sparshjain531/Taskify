@@ -9,8 +9,8 @@ import cors from "cors";
 export const app=express()
 
 config({
-    path:"./config.env",
-})
+    path: "./config.env",
+  });
 
 app.use(express.json())
 app.use(cookieParser())
